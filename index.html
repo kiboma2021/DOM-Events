@@ -12,7 +12,12 @@
     <h1>Practise using Dom Elements</h1>
   </header>
   <main>
-    <h1 class="domevent1" onclick = "this.innerHTML = 'Opps!'">Click and see!!</h1>
+    <section>
+      <h1 class="domevent1" onclick = "this.innerHTML = 'Changed from within the tag'">Within h1 tag</h1>
+    </section>
+    <section>
+      <h1 class="domevent1" onclick="functionName(this)">Call from the Event handler</h1>
+    </section>
   </main>
   
 </body>

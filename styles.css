@@ -4,3 +4,8 @@
   color: white;
   font-weight: bold;
 }
+
+.domevent1:hover {
+  background-color: blue;
+  cursor: pointer;
+}
