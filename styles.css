@@ -19,3 +19,23 @@ header {
 #time {
   color: red;
 }
+
+.display-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+  color: white;
+  background-color: black;
+}
+
+#dateBtn {
+  background-color: red;
+  font-weight: bold;
+  color: white;
+  padding: 4px;
+}
+
+#dateBtn:hover {
+  background-color: blue;
+}

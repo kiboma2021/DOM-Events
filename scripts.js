@@ -8,3 +8,9 @@ function checkTime(el) {
 function displayTimeHeader() {
   document.getElementById("time").innerHTML=Date();
 }
+
+document.getElementById("dateBtn").onclick = displayDate;
+
+function displayDate() {
+  document.getElementById("time-now").innerHTML = Date();
+}
