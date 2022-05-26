@@ -21,3 +21,14 @@ function upperCase() {
   const x = document.getElementById("username");
   x.value = x.value.toUpperCase();
 }
+
+document.getElementById("mouse-hover").onmouseover=mOver;
+document.getElementById("mouse-hover").onmouseout=mOut;
+
+function mOver() {
+  document.getElementById("mouse-hover").innerHTML="Thank You";
+}
+
+function mOut() {
+  document.getElementById("mouse-hover").innerHTML="Mouse Over Removed";
+} 

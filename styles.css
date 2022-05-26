@@ -39,3 +39,10 @@ header {
 #dateBtn:hover {
   background-color: blue;
 }
+
+#mouse-hover {
+  background-color: red;
+  color: white;
+  width: 20%;
+  padding: 10px;
+}
