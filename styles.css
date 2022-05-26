@@ -9,3 +9,12 @@
   background-color: blue;
   cursor: pointer;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#time {
+  color: red;
+}
