@@ -1,10 +1,13 @@
+/* eslint-disable no-unused-vars */
 function functionName(e) {
   e.innerHTML="Changed from Event handler!!";
 }
+// eslint-disable-next-line no-unused-vars
 function checkTime(el) {
   el.innerHTML=Date();
 }
 
+// eslint-disable-next-line no-unused-vars
 function displayTimeHeader() {
   document.getElementById("time").innerHTML=Date();
 }
